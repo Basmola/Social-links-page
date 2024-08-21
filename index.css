@@ -30,6 +30,10 @@ img:hover{
     padding-bottom:0px;
 }
 main{
+    display: flex;
+    justify-content: space-around;
+}
+.main{
     background-color:hsl(0, 0%, 12%);
     width: 500px;
     height: 600px;
