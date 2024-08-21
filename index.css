@@ -1,0 +1,85 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+}
+.photo{
+    padding: 40px 0px 5px;
+}
+img{
+width:125px;
+height: 125px;
+border-radius:50%;
+display:block;
+margin: auto;
+cursor: pointer;
+}
+
+img:hover{
+    transition: all 0.5s ease-in-out;
+        transform: scale(1.4);
+    }
+*{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+.info>h1{
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    word-spacing: 6px;
+    font-size: 150%;
+    padding-left: 11px;
+    padding-bottom:0px;
+}
+main{
+    background-color:hsl(0, 0%, 12%);
+    width: 500px;
+    height: 600px;
+    margin:auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-bottom: 40px;
+}
+.info>h2{
+    color:hsl(75, 94%, 57%);
+    font-size: 115%;
+    text-align: center;
+    padding-left: 2px;
+    padding-bottom:12px;
+}
+.info>p{
+    color:hsl(0, 0%, 100%);
+    text-align: center; 
+    padding-left: 10px; 
+    font-size: 14px;
+}
+.list>ul>li{
+    text-align: center;
+    list-style: none;
+    margin: 35px 0px 10px;
+    padding-right: 30px;
+}
+.list>ul>.GitHub>a,.list>ul>.Twitter>a{
+    padding: 12px 136px;
+}
+.list>ul>.LinkedIn>a{
+    padding:12px 129px ;
+}
+.list>ul>.Instagram>a{
+    padding:12px 123.5px ;
+}
+.list>ul>.front>a{
+    padding:12px 99px ;
+}
+a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    cursor: pointer;
+    background-color:hsl(0, 0%, 20%);
+    border-radius: 10px;
+    font-size: 100%;
+    font-weight:600;
+}
+.list>ul>li>a:hover{
+    color:hsl(0, 0%, 8%);
+background-color:  hsl(75, 94%, 57%);
+transition: all 0.2s ease-in;
+}
